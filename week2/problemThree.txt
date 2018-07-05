@@ -1,0 +1,12 @@
+Problem3: Provide the output of a command showing how much disk space one of your instances has.
+
+Disk space for Instance name "injoker1"
+ubuntu@ip-10-0-3-167:~$ df
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev              241228       0    241228   0% /dev
+tmpfs              49844    2976     46868   6% /run
+/dev/xvda1       8065444 1243548   6805512  16% /
+tmpfs             249216       0    249216   0% /dev/shm
+tmpfs               5120       0      5120   0% /run/lock
+tmpfs             249216       0    249216   0% /sys/fs/cgroup
+tmpfs              49844       0     49844   0% /run/user/1000

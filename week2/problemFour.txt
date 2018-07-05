@@ -1,0 +1,8 @@
+Problem4: Provide the output of a command showing how much memory one of your instances has.
+
+memory of instance name "injoker1"
+
+ubuntu@ip-10-0-3-167:~$ free
+              total        used        free      shared  buff/cache   available
+Mem:         498436       44840       53740        3000      399856      416836
+Swap:             0           0           0

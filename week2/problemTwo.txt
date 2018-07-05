@@ -1,0 +1,3 @@
+Problem2: Describe how you find the public IP address of a given instance using the EC2 console. (The public IP address may change whenever an instance is stopped and restarted.)
+
+Answer: Go to instance board and IPv4 Public IP column shows the public address for each Instance.

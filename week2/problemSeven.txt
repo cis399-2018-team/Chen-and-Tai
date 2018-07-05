@@ -1,0 +1,9 @@
+Problem7: Provide the output of a command showing the routing table of your instance.
+
+route table for instance "mntnttil"
+
+ubuntu@ip-10-0-3-20:~$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         ip-10-0-3-1.us- 0.0.0.0         UG    0      0        0 eth0
+10.0.3.0        *               255.255.255.0   U     0      0        0 eth0

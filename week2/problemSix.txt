@@ -1,0 +1,24 @@
+Problem6: Provide the output of a command showing the network interface configuration of your instance (this should show its private IP address).
+
+configure for instance "mntnttil"
+
+ubuntu@ip-10-0-3-20:~$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 0a:c3:00:2a:56:a2
+          inet addr:10.0.3.20  Bcast:10.0.3.255  Mask:255.255.255.0
+          inet6 addr: fe80::8c3:ff:fe2a:56a2/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:9001  Metric:1
+          RX packets:72328 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:31854 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:82423692 (82.4 MB)  TX bytes:3411813 (3.4 MB)
+
+lo        Link encap:Local Loopback
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:192 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:192 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1
+          RX bytes:14456 (14.4 KB)  TX bytes:14456 (14.4 KB)
+
+the inet addr shows the private IP address

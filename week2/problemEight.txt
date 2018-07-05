@@ -1,0 +1,12 @@
+Problem8: Provide the output of a command showing all of the open network connections and ports on one of your instances.
+
+Here is the network connections and ports on "mntnttil"
+
+ubuntu@ip-10-0-3-20:~$ netstat -atu
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State
+tcp        0      0 *:ssh                   *:*                     LISTEN
+tcp        0    284 ip-10-0-3-20.us-wes:ssh 128-223-223-131-w:14528 ESTABLISHED
+tcp        0      0 ip-10-0-3-20.us-wes:ssh 128-223-223-131-w:22486 ESTABLISHED
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN
+udp        0      0 *:bootpc                *:*

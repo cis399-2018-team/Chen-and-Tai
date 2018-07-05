@@ -1,7 +1,10 @@
 Problem1:List the EC2 instance IDs and private IP addresses of all the instances you created.
 
-Chen's Instance ID      Private IP:
+Chen's Instance ID           Private IP:
 1. i-02dbbbbb5971fe6fa  10.0.3.167        
-2. i-059d986f7cbeacc92  10.0.3.66
+2. i-059d986f7cbeacc92   10.0.3.66
 3. i-0caf098ba5e2b8e6d  10.0.3.172
 
+
+Tai's Instance ID              Private IP:
+1.i-0b37d20739fae56fb   10.0.3.20

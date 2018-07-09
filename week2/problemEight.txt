@@ -10,3 +10,15 @@ tcp        0    284 ip-10-0-3-20.us-wes:ssh 128-223-223-131-w:14528 ESTABLISHED
 tcp        0      0 ip-10-0-3-20.us-wes:ssh 128-223-223-131-w:22486 ESTABLISHED
 tcp6       0      0 [::]:ssh                [::]:*                  LISTEN
 udp        0      0 *:bootpc                *:*
+
+Network connections and ports on "injoker1"
+
+ubuntu@ip-10-0-3-167:~$ netstat -atu
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 *:ssh                   *:*                     LISTEN     
+tcp        0      0 ip-10-0-3-167.us-we:ssh 128-223-223-134-wi:6486 ESTABLISHED
+tcp        0      0 ip-10-0-3-167.us-we:ssh 128-223-223-131-w:56036 ESTABLISHED
+tcp        0    316 ip-10-0-3-167.us-we:ssh 128-223-223-134-w:35328 ESTABLISHED
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN     
+udp        0      0 *:bootpc                *:* 

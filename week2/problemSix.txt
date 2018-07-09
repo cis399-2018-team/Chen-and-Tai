@@ -22,3 +22,24 @@ lo        Link encap:Local Loopback
           RX bytes:14456 (14.4 KB)  TX bytes:14456 (14.4 KB)
 
 the inet addr shows the private IP address
+
+Configure for instance "injoker1"
+ubuntu@ip-10-0-3-167:~$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 0a:34:a4:6b:5a:dc  
+          inet addr:10.0.3.167  Bcast:10.0.3.255  Mask:255.255.255.0
+          inet6 addr: fe80::834:a4ff:fe6b:5adc/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:9001  Metric:1
+          RX packets:193398 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:87078 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:217247728 (217.2 MB)  TX bytes:9270190 (9.2 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:192 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:192 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:14456 (14.4 KB)  TX bytes:14456 (14.4 KB)
+

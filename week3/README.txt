@@ -1,4 +1,4 @@
-For the assignment 4, I deleted the authorized_key and forgot to copy the backup to it, so the permisson to that instance is none, and I created a new one
+For the problem 4, I deleted the authorized_key and forgot to copy the backup to it, so the permisson to that instance is none, and I created a new one
 
 EC2 instance ID: i-00e4123bc30e660b6
 

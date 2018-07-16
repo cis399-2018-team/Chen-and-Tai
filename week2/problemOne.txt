@@ -8,3 +8,4 @@ Chen's Instance ID           Private IP:
 
 Tai's Instance ID              Private IP:
 1.i-0b37d20739fae56fb   10.0.3.20
+2.i-00e4123bc30e660b6   10.0.3.37

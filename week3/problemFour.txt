@@ -1,0 +1,10 @@
+Situation 4: after modify or delete .ssh/authorized_keys file
+
+root@ip-10-0-3-37:~# puppet agent -t
+Info: Retrieving pluginfacts
+Info: Retrieving plugin
+Info: Caching catalog for ip-10-0-3-37.us-west-2.compute.internal
+Info: Applying configuration version '1531722727'
+Notice: /Stage[main]/Sshd/Ssh_authorized_key[injokerCIS399]/ensure: created
+Notice: /Stage[main]/Sshd/Ssh_authorized_key[mntnttil]/ensure: created
+Notice: Finished catalog run in 0.07 seconds

@@ -1,0 +1,9 @@
+Situation 1: after remove the openssh-server package
+
+root@ip-10-0-3-37:~# puppet agent -t
+Info: Retrieving pluginfacts
+Info: Retrieving plugin
+Info: Caching catalog for ip-10-0-3-37.us-west-2.compute.internal
+Info: Applying configuration version '1531722727'
+Notice: /Stage[main]/Sshd/Package[openssh-server]/ensure: created
+Notice: Finished catalog run in 2.95 seconds

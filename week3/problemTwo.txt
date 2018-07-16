@@ -1,0 +1,12 @@
+Situation 2: after stop sshd module
+
+
+root@ip-10-0-3-37:~# puppet agent -t
+Info: Retrieving pluginfacts
+Info: Retrieving plugin
+Info: Caching catalog for ip-10-0-3-37.us-west-2.compute.internal
+Info: Applying configuration version '1531722727'
+Notice: /Stage[main]/Sshd/Service[sshd]/ensure: ensure changed 'stopped' to 'running'
+Info: /Stage[main]/Sshd/Service[sshd]: Unscheduling refresh on Service[sshd]
+Notice: Finished catalog run in 0.09 seconds
+

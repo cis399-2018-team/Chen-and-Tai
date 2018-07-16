@@ -7,3 +7,49 @@ Info: Caching catalog for ip-10-0-3-37.us-west-2.compute.internal
 Info: Applying configuration version '1531722727'
 Notice: /Stage[main]/Sshd/Package[openssh-server]/ensure: created
 Notice: Finished catalog run in 2.95 seconds
+
+
+Test on instance injoker2:
+
+root@ip-10-0-3-230:~# apt-get purge openssh-server
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages will be REMOVED:
+  openssh-server*
+0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
+After this operation, 904 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... 63807 files and directories currently installed.)
+Removing openssh-server (1:7.2p2-4ubuntu2.4) ...
+Purging configuration files for openssh-server (1:7.2p2-4ubuntu2.4) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 76.)
+debconf: falling back to frontend: Readline
+root@ip-10-0-3-230:~# puppet agent -t
+Info: Retrieving pluginfacts
+Info: Retrieving plugin
+Info: Caching catalog for ip-10-0-3-230.us-west-2.compute.internal
+Info: Applying configuration version '1531722727'
+Notice: /Stage[main]/Sshd/Package[openssh-server]/ensure: ensure changed 'purged' to 'present'
+Notice: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]/content: 
+--- /etc/ssh/sshd_config	2018-07-16 18:54:24.922025995 +0000
++++ /tmp/puppet-file20180716-1976-11y1lfo	2018-07-16 18:54:27.078021880 +0000
+@@ -49,7 +49,7 @@
+ ChallengeResponseAuthentication no
+ 
+ # Change to no to disable tunnelled clear text passwords
+-#PasswordAuthentication yes
++PasswordAuthentication no
+ 
+ # Kerberos options
+ #KerberosAuthentication no
+
+Info: Computing checksum on file /etc/ssh/sshd_config
+Info: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Filebucketed /etc/ssh/sshd_config to puppet with sum bd3a2b95f8b4b180eed707794ad81e4d
+Notice: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]/content: content changed '{md5}bd3a2b95f8b4b180eed707794ad81e4d' to '{md5}8383ec31cdeb8b721a56d1e3ea7eb8d5'
+Notice: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]/mode: mode changed '0644' to '0444'
+Info: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Scheduling refresh of Service[sshd]
+Info: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Scheduling refresh of Service[sshd]
+Notice: /Stage[main]/Sshd/Service[sshd]: Triggered 'refresh' from 2 events
+Notice: Finished catalog run in 3.49 seconds

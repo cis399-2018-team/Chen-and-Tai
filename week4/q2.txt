@@ -6,3 +6,8 @@ on injoker2
 63.155.36.72 - - [23/Jul/2018:20:44:14 +0000] "GET /favicon.ico HTTP/1.1" 404 541 "http://ec2-34-221-224-142.us-west-2.compute.amazonaws.com/test.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
 63.155.36.72 - - [23/Jul/2018:20:44:14 +0000] "GET /test.html HTTP/1.1" 200 448 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
 
+on mntnttil2:
+10.0.3.222 - - [23/Jul/2018:22:53:53 +0000] "GET / HTTP/1.1" 200 11632 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+187.10.73.12 - - [23/Jul/2018:22:26:11 +0000] "GET / HTTP/1.1" 200 11576 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+185.131.240.124 - - [23/Jul/2018:21:43:55 +0000] "GET / HTTP/1.1" 200 11576 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+10.0.3.222 - - [23/Jul/2018:21:10:07 +0000] "GET /favicon.ico HTTP/1.1" 404 542 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0"

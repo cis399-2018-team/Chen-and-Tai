@@ -1,0 +1,21 @@
+For shutting one down:
+
+the index page can still be retrived by using the DNS of the balancer
+
+Shutting both:
+
+stop working and report the error code 504 or 503
+
+After restore the service on injoker2 instance:
+
+still showing a error code 503
+
+after restore both instances to service apache2:
+
+still showing a error code 503
+
+after retriving the test page from both instances:
+
+the balancer starts to serve pages again 
+
+

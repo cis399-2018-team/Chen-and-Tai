@@ -1,0 +1,13 @@
+the access log file in instance mntnttil2:
+
+10.0.3.222 - - [23/Jul/2018:05:05:41 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+10.0.3.29 - - [23/Jul/2018:05:05:55 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+10.0.3.222 - - [23/Jul/2018:05:06:11 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+10.0.3.29 - - [23/Jul/2018:05:06:25 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+10.0.3.222 - - [23/Jul/2018:05:06:41 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+10.0.3.29 - - [23/Jul/2018:05:06:55 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+10.0.3.222 - - [23/Jul/2018:05:07:11 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+10.0.3.29 - - [23/Jul/2018:05:07:25 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+10.0.3.222 - - [23/Jul/2018:05:07:41 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+10.0.3.29 - - [23/Jul/2018:05:07:55 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"
+10.0.3.222 - - [23/Jul/2018:05:08:11 +0000] "GET /index.html HTTP/1.1" 200 11632 "-" "ELB-HealthChecker/1.0"

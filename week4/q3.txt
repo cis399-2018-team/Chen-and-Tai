@@ -1,0 +1,3 @@
+Provide the domain name associated with your load balancer so I can test web server access to it.
+
+Chen-and-Tai-1132304760.us-west-2.elb.amazonaws.com

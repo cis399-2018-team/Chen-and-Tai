@@ -1,0 +1,8 @@
+
+Describe the results of testing your load balancer when you shut down one, then both, back-end instances, and when you restore them.
+
+Shut down one (injoker_2): injoker_2 out of service, web page from domain still work, web page from injoker_2 DNS failed
+
+Shut down both:web page no longer accessible
+
+Reboot one or both: webpage work again (it has some delay time)

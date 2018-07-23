@@ -1,0 +1,1 @@
+Provide excerpts from web server logs from each of your web server instances showing load balancer health checks and accesses to your web content.

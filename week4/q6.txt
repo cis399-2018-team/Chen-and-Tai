@@ -1,0 +1,12 @@
+Puppet code use to replicate content between web server instances
+
+	file { "/var/www/html":
+			ensure => directory,
+			require => package["apache2"],
+			recurse => true,
+			owner => root,
+			group => root,
+			source => "puppet:///modules/apache/html",
+			mode => 644,
+
+	}

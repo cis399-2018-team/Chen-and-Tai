@@ -1,0 +1,55 @@
+Here is the report for instances I tried logging in:
+
+available ones:
+alajaji_ins
+ashears_instance
+aarcher-agent1
+aarcher-agent2
+mhagel
+jbeder2
+system2
+system3
+alonzo1
+alonzo2
+
+unable to log in:
+vendrea-agent1
+vendrea-agent2
+
+Here is the log information for instance mntnttil2:
+ 1001 stevev        0        0        1   21:07:50
+ 1002 alajaji       0        0        1   19:16:40
+ 1003 ktb11         0        0        1   19:22:40
+ 1004 alegge        0        0        1   19:02:37
+ 1005 mhagel2       0        0        1   21:19:04
+ 1006 dbeeman       0        0        1   15:20:35
+ 1007 aarcher       0        0        1
+ 1008 jbeder1       0        0        1   05:59:18
+ 1009 quinn         4        0        1   19:58:11
+ 1010 anosler       0        0        1
+ 1011 vohoanvu      0        0        1   07:16:26
+ 1012 alonzo        0        0        1
+ 1013 crestonw      0        0        1
+ 1014 ashears       0        0        1
+ 1015 miguel        0        0        1   18:27:17
+
+here is the log from command lastlog:
+
+alajaji          pts/1    207.189.30.164   Mon Jul 30 19:16:40 +0000 2018
+ktb11            pts/0    98.232.224.61    Mon Jul 30 19:22:40 +0000 2018
+alegge           pts/0    128.223.223.135  Mon Jul 30 19:02:37 +0000 2018
+mhagel2          pts/1    128.223.223.131  Mon Jul 30 21:19:04 +0000 2018
+dbeeman          pts/0    128.223.223.135  Mon Jul 30 15:20:35 +0000 2018
+aarcher                                    **Never logged in**
+jbeder1          pts/0    67.189.2.81      Mon Jul 30 05:59:18 +0000 2018
+quinn            pts/0    128.223.223.131  Mon Jul 30 19:58:11 +0000 2018
+anosler                                    **Never logged in**
+vohoanvu         pts/0    63.155.166.234   Mon Jul 30 07:16:26 +0000 2018
+alonzo                                     **Never logged in**
+crestonw                                   **Never logged in**
+ashears          pts/2    128.223.223.143  Mon Jul 30 21:28:07 +0000 2018
+miguel           pts/0    128.223.57.187   Mon Jul 30 18:27:17 +0000 2018
+stevev           pts/1    128.223.222.76   Mon Jul 30 21:07:50 +0000 2018
+
+
+from the log above, there are still some people have not try to log in the instance mntnttil2

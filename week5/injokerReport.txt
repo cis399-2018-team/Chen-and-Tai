@@ -1,0 +1,79 @@
+This is the report for username:injoker to login
+1.login status:
+Instance Name and status for each group
+leedle group:
+mhagel  success
+jbeder2 success
+
+The-System-group:
+system2 success
+system3 success
+
+Creston and Alex:
+aarcher-agent1 success
+aarcher-agent2 success
+
+Group 3:
+alonzo1 success
+alonzo2 success
+
+Vandrea:
+vandrea-agent2 permission denied
+vandrea-PM permission denied
+vandrea-agent1 permission denied
+
+A^3:
+ashears_instance success
+alajaji_ins success
+
+2. log information:
+ubuntu@ip-10-0-3-50:~$ lastlog
+Username         Port     From             Latest
+root                                       **Never logged in**
+daemon                                     **Never logged in**
+bin                                        **Never logged in**
+sys                                        **Never logged in**
+sync                                       **Never logged in**
+games                                      **Never logged in**
+man                                        **Never logged in**
+lp                                         **Never logged in**
+mail                                       **Never logged in**
+news                                       **Never logged in**
+uucp                                       **Never logged in**
+proxy                                      **Never logged in**
+www-data                                   **Never logged in**
+backup                                     **Never logged in**
+list                                       **Never logged in**
+irc                                        **Never logged in**
+gnats                                      **Never logged in**
+nobody                                     **Never logged in**
+systemd-timesync                           **Never logged in**
+systemd-network                            **Never logged in**
+systemd-resolve                            **Never logged in**
+systemd-bus-proxy                           **Never logged in**
+syslog                                     **Never logged in**
+_apt                                       **Never logged in**
+lxd                                        **Never logged in**
+messagebus                                 **Never logged in**
+uuidd                                      **Never logged in**
+dnsmasq                                    **Never logged in**
+sshd                                       **Never logged in**
+pollinate                                  **Never logged in**
+ubuntu           pts/0    128.223.223.131  Mon Jul 30 19:52:41 +0000 2018
+puppet                                     **Never logged in**
+colord                                     **Never logged in**
+mhagel2          pts/0    73.25.66.164     Sun Jul 29 08:27:27 +0000 2018
+dbeeman          pts/0    128.223.223.135  Mon Jul 30 15:18:46 +0000 2018
+jbeder1          pts/0    67.189.2.81      Sun Jul 29 19:03:44 +0000 2018
+alajaji          pts/0    207.189.30.164   Mon Jul 30 19:27:33 +0000 2018
+ktb11            pts/0    98.232.224.61    Mon Jul 30 19:21:57 +0000 2018
+alegge           pts/0    128.223.223.135  Mon Jul 30 18:54:51 +0000 2018
+aarcher          pts/0    73.180.24.167    Mon Jul 30 06:27:54 +0000 2018
+quinn            pts/0    76.78.90.143     Sun Jul 29 21:40:44 +0000 2018
+anosler                                    **Never logged in**
+vohoanvu         pts/0    63.155.166.234   Mon Jul 30 07:14:39 +0000 2018
+alonzo           pts/0    128.223.223.4    Mon Jul 30 17:29:31 +0000 2018
+crestonw         pts/0    174.224.6.239    Mon Jul 30 07:05:25 +0000 2018
+ashears                                    **Never logged in**
+miguel           pts/0    128.223.57.187   Mon Jul 30 18:26:59 +0000 2018
+stevev                                     **Never logged in**

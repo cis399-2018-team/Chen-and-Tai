@@ -1,0 +1,31 @@
+This is the report for username:injoker to login
+leedle group:
+mhagel success
+dbeeman permission denied
+jbeder2 success
+
+The-System-group:
+system2 success
+system3 success
+system1-master permission denied
+
+Creston and Alex:
+aarcher-agent1 success
+aarcher-agent2 permission denied
+crestonw-master permission denied
+
+Group 3:
+ktb11 permission denied
+alonzo1 success
+alonzo2 success
+
+Vandrea:
+vandrea-agent2 permission denied
+vandrea-PM permission denied
+vandrea-agent1 permission denied
+
+A^3:
+ashears_instance success
+alegge_pm permission denied
+alajaji_ins success
+

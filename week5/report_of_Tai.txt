@@ -53,3 +53,21 @@ stevev           pts/1    128.223.222.76   Mon Jul 30 21:07:50 +0000 2018
 
 
 from the log above, there are still some people have not try to log in the instance mntnttil2
+
+log information by Tuesday 1:30p.m.:
+
+alajaji          pts/1    207.189.30.164   Mon Jul 30 19:16:40 +0000 2018
+ktb11            pts/0    98.232.224.61    Mon Jul 30 19:22:40 +0000 2018
+alegge           pts/0    128.223.223.135  Mon Jul 30 19:02:37 +0000 2018
+mhagel2          pts/1    128.223.223.131  Mon Jul 30 21:19:04 +0000 2018
+dbeeman          pts/0    128.223.223.135  Mon Jul 30 15:20:35 +0000 2018
+aarcher          pts/0    73.180.24.167    Tue Jul 31 19:47:24 +0000 2018
+jbeder1          pts/0    67.189.2.81      Mon Jul 30 05:59:18 +0000 2018
+quinn            pts/0    128.223.223.131  Mon Jul 30 19:58:11 +0000 2018
+anosler          pts/0    76.10.2.137      Tue Jul 31 00:10:24 +0000 2018
+vohoanvu         pts/0    63.155.166.234   Mon Jul 30 07:16:26 +0000 2018
+alonzo           pts/0    128.223.223.131  Tue Jul 31 19:51:24 +0000 2018
+crestonw                                   **Never logged in**
+ashears          pts/2    128.223.223.143  Mon Jul 30 21:28:07 +0000 2018
+miguel           pts/0    128.223.57.187   Mon Jul 30 18:27:17 +0000 2018
+stevev           pts/1    128.223.222.76   Mon Jul 30 21:07:50 +0000 2018

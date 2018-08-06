@@ -1,0 +1,118 @@
+
+1. trigger High-CPU-Utilization alarm:
+You are receiving this email because your Amazon CloudWatch Alarm "awsec2-i-0e3351c120dd3f767-High-CPU-Utilization" in the US West (Oregon) region has entered the ALARM state, because "Threshold Crossed: 2 datapoints [100.0 (06/08/18 06:11:00), 100.0 (06/08/18 06:06:00)] were greater than or equal to the threshold (70.0)." at "Monday 06 August, 2018 06:16:37 UTC".
+
+View this alarm in the AWS Management Console:
+https://console.aws.amazon.com/cloudwatch/home?region=us-west-2#s=Alarms&alarm=awsec2-i-0e3351c120dd3f767-High-CPU-Utilization
+
+Alarm Details:
+- Name:                       awsec2-i-0e3351c120dd3f767-High-CPU-Utilization
+- Description:                Created from EC2 Console
+- State Change:               OK -> ALARM
+- Reason for State Change:    Threshold Crossed: 2 datapoints [100.0 (06/08/18 06:11:00), 100.0 (06/08/18 06:06:00)] were greater than or equal to the threshold (70.0).
+- Timestamp:                  Monday 06 August, 2018 06:16:37 UTC
+- AWS Account:                006170570170
+
+Threshold:
+- The alarm is in the ALARM state when the metric is GreaterThanOrEqualToThreshold 70.0 for 300 seconds. 
+
+Monitored Metric:
+- MetricNamespace:                     AWS/EC2
+- MetricName:                          CPUUtilization
+- Dimensions:                          [InstanceId = i-0e3351c120dd3f767]
+- Period:                              300 seconds
+- Statistic:                           Maximum
+- Unit:                                not specified
+
+
+
+State Change Actions:
+- OK: 
+- ALARM: [arn:aws:sns:us-west-2:006170570170:Chen-And-Tai]
+- INSUFFICIENT_DATA: 
+
+
+--
+If you wish to stop receiving notifications from this topic, please click or visit the link below to unsubscribe:
+https://sns.us-west-2.amazonaws.com/unsubscribe.html?SubscriptionArn=arn:aws:sns:us-west-2:006170570170:Chen-And-Tai:f24512fc-5269-4b72-b16b-462e111dde03&Endpoint=gchen3@uoregon.edu
+
+Please do not reply directly to this email. If you have any questions or comments regarding this email, please contact us at https://aws.amazon.com/support
+2.trigger High-Network-Out alarm:
+
+You are receiving this email because your Amazon CloudWatch Alarm "awsec2-i-0e3351c120dd3f767-High-Network-Out" in the US West (Oregon) region has entered the ALARM state, because "Threshold Crossed: 1 datapoint [5295.2 (06/08/18 05:52:00)] was greater than or equal to the threshold (100.0)." at "Monday 06 August, 2018 06:02:12 UTC".
+
+View this alarm in the AWS Management Console:
+https://console.aws.amazon.com/cloudwatch/home?region=us-west-2#s=Alarms&alarm=awsec2-i-0e3351c120dd3f767-High-Network-Out
+
+Alarm Details:
+- Name:                       awsec2-i-0e3351c120dd3f767-High-Network-Out
+- Description:                Created from EC2 Console
+- State Change:               OK -> ALARM
+- Reason for State Change:    Threshold Crossed: 1 datapoint [5295.2 (06/08/18 05:52:00)] was greater than or equal to the threshold (100.0).
+- Timestamp:                  Monday 06 August, 2018 06:02:12 UTC
+- AWS Account:                006170570170
+
+Threshold:
+- The alarm is in the ALARM state when the metric is GreaterThanOrEqualToThreshold 100.0 for 300 seconds. 
+
+Monitored Metric:
+- MetricNamespace:                     AWS/EC2
+- MetricName:                          NetworkOut
+- Dimensions:                          [InstanceId = i-0e3351c120dd3f767]
+- Period:                              300 seconds
+- Statistic:                           Average
+- Unit:                                not specified
+
+
+
+State Change Actions:
+- OK: 
+- ALARM: [arn:aws:sns:us-west-2:006170570170:Chen-And-Tai]
+- INSUFFICIENT_DATA: 
+
+
+--
+If you wish to stop receiving notifications from this topic, please click or visit the link below to unsubscribe:
+https://sns.us-west-2.amazonaws.com/unsubscribe.html?SubscriptionArn=arn:aws:sns:us-west-2:006170570170:Chen-And-Tai:f24512fc-5269-4b72-b16b-462e111dde03&Endpoint=gchen3@uoregon.edu
+
+Please do not reply directly to this email. If you have any questions or comments regarding this email, please contact us at https://aws.amazon.com/support
+
+3.trigger High-Network-In alarm:
+
+You are receiving this email because your Amazon CloudWatch Alarm "awsec2-i-0e3351c120dd3f767-High-Network-In" in the US West (Oregon) region has entered the ALARM state, because "Threshold Crossed: 1 datapoint [7448.0 (06/08/18 05:56:00)] was greater than or equal to the threshold (100.0)." at "Monday 06 August, 2018 06:01:58 UTC".
+
+View this alarm in the AWS Management Console:
+https://console.aws.amazon.com/cloudwatch/home?region=us-west-2#s=Alarms&alarm=awsec2-i-0e3351c120dd3f767-High-Network-In
+
+Alarm Details:
+- Name:                       awsec2-i-0e3351c120dd3f767-High-Network-In
+- Description:                Created from EC2 Console
+- State Change:               OK -> ALARM
+- Reason for State Change:    Threshold Crossed: 1 datapoint [7448.0 (06/08/18 05:56:00)] was greater than or equal to the threshold (100.0).
+- Timestamp:                  Monday 06 August, 2018 06:01:58 UTC
+- AWS Account:                006170570170
+
+Threshold:
+- The alarm is in the ALARM state when the metric is GreaterThanOrEqualToThreshold 100.0 for 300 seconds. 
+
+Monitored Metric:
+- MetricNamespace:                     AWS/EC2
+- MetricName:                          NetworkIn
+- Dimensions:                          [InstanceId = i-0e3351c120dd3f767]
+- Period:                              300 seconds
+- Statistic:                           Average
+- Unit:                                not specified
+
+
+
+State Change Actions:
+- OK: 
+- ALARM: [arn:aws:sns:us-west-2:006170570170:Chen-And-Tai]
+- INSUFFICIENT_DATA: 
+
+
+--
+If you wish to stop receiving notifications from this topic, please click or visit the link below to unsubscribe:
+https://sns.us-west-2.amazonaws.com/unsubscribe.html?SubscriptionArn=arn:aws:sns:us-west-2:006170570170:Chen-And-Tai:f24512fc-5269-4b72-b16b-462e111dde03&Endpoint=gchen3@uoregon.edu
+
+Please do not reply directly to this email. If you have any questions or comments regarding this email, please contact us at https://aws.amazon.com/support

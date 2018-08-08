@@ -7,7 +7,7 @@ Concrete goals:
 it back to their PC. 
 
 Methods of testing:
-	SImply make a user account for testing if we can upload and download from the server, if it's available for one user, then 
+	Simply make a user account for testing if we can upload and download from the server, if it's available for one user, then 
 add more users.
 
 Verification:
@@ -24,6 +24,7 @@ Security issues:
 	Maybe some users may upload some unsafe files or application to the server, so we need some backup method for this problem.
 
 For complete the project:
+	Installing the dependencies, create the database, configure apache
 	Same as the concrete goals, if we have more time, we may think about adding some function or extensions to convince the users.
 
 For maintaining:

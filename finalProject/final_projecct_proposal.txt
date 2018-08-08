@@ -1,0 +1,41 @@
+After some searching and discussion, we want to set up a Nextcloud server on ouw instances.
+
+Because we are both learning how to do this thing, the method and implementation for this project may change a little bit 
+
+Concrete goals:
+	We will set up a Nextcloud server, as a basic cloud server, which users can upload there file to this server and downlaod
+it back to their PC. 
+
+Methods of testing:
+	SImply make a user account for testing if we can upload and download from the server, if it's available for one user, then 
+add more users.
+
+Verification:
+	If all uploads and downloads are successful, then it's done.
+
+Effect on its user population:
+	Because the storage of the server is limited, more user means less storage per user. And the server may stop working if too many
+users upload and download at about the same time.
+
+User support issues:
+	For this one, I think there may be some problem raised when we test it, but right now I have no idea what and how they will be.
+
+Security issues:
+	Maybe some users may upload some unsafe files or application to the server, so we need some backup method for this problem.
+
+For complete the project:
+	Same as the concrete goals, if we have more time, we may think about adding some function or extensions to convince the users.
+
+For maintaining:
+	Basicly keep update the package we used for this project, and fix or find method to avoid the bugs with the updates, we may need
+to not keep updating to skip some version with too many bugs, and only update to the solid ones. Because of this, we can just simply check
+if there is a new update, but I don't think it's the best way.
+
+Documentation for administrator and users:
+	For admins: some basic status of the server like total storage, users and groups, the current version of package, some advice of user
+managing
+
+	For users: the function they could use and the method to use it, also the current version of package, and some notification about the
+security problem (like the admins may backup or stop their personal use for this server)
+
+Here is what I could think of this project right now, and I will fill up more details for this during the process we work on the project.

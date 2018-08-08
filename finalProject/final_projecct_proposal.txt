@@ -34,7 +34,11 @@ to not keep updating to skip some version with too many bugs, and only update to
 if there is a new update, but I don't think it's the best way.
 
 Documentation for administrator and users:
-	Because it's a self host server, I think only documentation for admins is important. 
-	For admins: the current version of package, the backup method, and some security notification.
+	This part will be filled up when we almost finish the project.
+	We will contain some information of the description of the project,
+	how to install or set the server, and some simple tutorial and function of this project
+
+	And then provide a place for issue reports from others, and some security notification
+	and license.
 
 Here is what I could think of this project right now, and I will fill up more details for this during the process we work on the project.

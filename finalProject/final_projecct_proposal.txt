@@ -4,18 +4,19 @@ Because we are both learning how to do this thing, the method and implementation
 
 Concrete goals:
 	We will set up a Nextcloud server, as a basic cloud server, which users can upload there file to this server and downlaod
-it back to their PC. 
+it back to their PC. After some searching, it's a self-hosting cloud server, so it also can shard a file with others.
 
 Methods of testing:
 	Simply make a user account for testing if we can upload and download from the server, if it's available for one user, then 
-add more users.
+share with others
 
 Verification:
-	If all uploads and downloads are successful, then it's done.
+	If all uploads, downloads and sharing are successful, then it's done. 
 
 Effect on its user population:
-	Because the storage of the server is limited, more user means less storage per user. And the server may stop working if too many
-users upload and download at about the same time.
+	Because it's a self host server and for oneself, so only thing we need to care may be the pressure when a lot users download your file,
+we will check the CPU of the instance when one user download it. If the usage of CPU is too high for only one or two users, we may limit the 
+download to only one or two at the same time.
 
 User support issues:
 	For this one, I think there may be some problem raised when we test it, but right now I have no idea what and how they will be.
@@ -33,10 +34,7 @@ to not keep updating to skip some version with too many bugs, and only update to
 if there is a new update, but I don't think it's the best way.
 
 Documentation for administrator and users:
-	For admins: some basic status of the server like total storage, users and groups, the current version of package, some advice of user
-managing
-
-	For users: the function they could use and the method to use it, also the current version of package, and some notification about the
-security problem (like the admins may backup or stop their personal use for this server)
+	Because it's a self host server, I think only documentation for admins is important. 
+	For admins: the current version of package, the backup method, and some security notification.
 
 Here is what I could think of this project right now, and I will fill up more details for this during the process we work on the project.

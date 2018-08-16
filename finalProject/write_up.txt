@@ -1,0 +1,33 @@
+concrete goals:
+By setting up the server of Nextcloud, the user can upload and download file using the instance's storage. And users can share files
+with each other.
+
+methods of testing and verification: 
+Simply try to upload, download and share files. If all functions work, then we meet our goals.
+
+effect on its user population:
+Because the instance's storage is limited, more users mean less storage per user. Although admins have the access to set quota for users,
+we may limit the user population to ensure everyone has enough space. Another way to solve this problem is to set another instance as 
+additional space for this server. In addition, the CPU usage may be a problem, but by testing the upload and download function, we find the
+CPU usage is not so high, so this may not be a big problem.
+
+user support issues:
+Because users access to the server using their own web browser, so there should not be so many issues about supporting.
+
+security issues:
+Because both admins and users login with a DNS, we may need to add HTTPS to enhance the security of this server. For user
+accounts and files, because all things are saved in the instance and the access to the instance is controlled by the admins, the 
+security problem may only caused because the log of the DNS. We could also add a little program to generate key for the admin
+account, so hackers can't get the current using key for the admin account.
+(in current server, we want to add the HTTPS, but the domain we are using is not a FQDN, so we can't set up those security application for it)
+
+work needed to complete the project:
+Actually all the instruction for installing and setting up this server are found online. We just install the package and required package for 
+this server, then set up the domain and first admin account for this server. We also change the permission of relevent folders, so admins and
+users could access the server simply with the browser.
+
+for maintainance and auto maintaining:
+Because all things need to update are those required packages, we could maintain this server simply by keeping updating those packages.
+We can also write a module to check for the update. By searching, I learned that there may be some bugs within certain version of Nextcloud,
+if the latest version of Nextcloud is not stable, we may stay the old one and wait for the stable updates.
+

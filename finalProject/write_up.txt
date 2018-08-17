@@ -1,6 +1,7 @@
 concrete goals:
 By setting up the server of Nextcloud, the user can upload and download file using the instance's storage. And users can share files
 with each other.
+Brief information about Nextcloud: "The Nextcloud server is written in the PHP and JavaScript scripting languages. For remote access, it employs sabre/dav, an open-source WebDAV server.[5] Nextcloud is designed to work with several database management systems, including SQLite, MariaDB, MySQL, Oracle Database, and PostgreSQL." (wikipedia)
 
 methods of testing and verification: 
 Simply try to upload, download and share files. If all functions work, then we meet our goals.
@@ -15,19 +16,47 @@ user support issues:
 Because users access to the server using their own web browser, so there should not be so many issues about supporting.
 
 security issues:
-Because both admins and users login with a DNS, we may need to add HTTPS to enhance the security of this server. For user
-accounts and files, because all things are saved in the instance and the access to the instance is controlled by the admins, the 
-security problem may only caused because the log of the DNS. We could also add a little program to generate key for the admin
-account, so hackers can't get the current using key for the admin account.
-(in current server, we want to add the HTTPS, but the domain we are using is not a FQDN, so we can't set up those security application for it)
-
-work needed to complete the project:
+Securing the Nextcloud Web Interface with SSL:
+	Option 1 (Setting Up SSL with Let's Encrypt):Because both admins and users login with a DNS, we may need to add HTTPS to enhance the security of this server. For user
+	accounts and files, because all things are saved in the instance and the access to the instance is controlled by the admins, the 
+	security problem may only caused because the log of the DNS. We could also add a little program to generate key for the admin
+	account, so hackers can't get the current using key for the admin account.
+	(in current server, we want to add the HTTPS, but the domain we are using is not a FQDN, so we can't set up those security application for it)
+	Option 2 (Setting Up SSL with a Self-Signed Certificate): 
+	If your Nextcloud server does not have a domain name, you can still secure the web interface by generating a self-signed SSL certificate. This certificate will allow access to the web interface over an encrypted connection, but will be unable to verify the identity of your server, so your browser will likely display a warning.
+	work needed to complete the project:
 Actually all the instruction for installing and setting up this server are found online. We just install the package and required package for 
 this server, then set up the domain and first admin account for this server. We also change the permission of relevent folders, so admins and
 users could access the server simply with the browser.
 
-for maintainance and auto maintaining:
-Because all things need to update are those required packages, we could maintain this server simply by keeping updating those packages.
-We can also write a module to check for the update. By searching, I learned that there may be some bugs within certain version of Nextcloud,
-if the latest version of Nextcloud is not stable, we may stay the old one and wait for the stable updates.
+For maintainance and auto maintaining:
+	setup:
+		Nextcloud have a convenient way for user setup up the nextcloud server: snap install.
+		Snap advantage: The snap is nice for getting up and running quickly with minimal space, and will work great if you’re happy not messing with it. Since it’s a snap you also get the benefit of automatic updates and the ability to rollback without worrying about needing to take a snapshot, etc.
+		Snap disadvantage: However, the snap is very opinionated. Don’t want to use Apache? Sorry, the snap uses it. Don’t want to use MySQL? Sorry, MariaDB does not run on ARM. Something other than PHP 7.0.15? We picked the version we feel gives the best results. In other words, it’s not very tinker-friendly. We don’t do this to be mean, we do this so that we can reliably update it without your needing to worry about it.
+		That's why we chose setup nextcloud without snap.
+
+		VPS advantage and disadvantage:
+		It’s a full version of Ubuntu server edition, allowing you to tweak whatever you need and it comes with many apps which are not that easy to configure for inexperienced administrators. This of course makes it larger. You’ll also need to make sure you maintain it and keep the OS up-to-date. Since it’s virtualized you can assign disk, CPU, memory, and network quotas to it (you’d need to install the snap in an lxc container or a VM to get the same abilities).
+	backup:
+		To backup an Nextcloud installation there are four main things wee need to retain:The config folder, The data folder, The theme folder, The database.
+	Restoring backup:
+		To restore a Nextcloud installation there are four main things wee need to restore:The configuration directory,The data directory, The database, The theme directory.
+	Upgrade:
+		Because all things need to update are those required packages, we could maintain this server simply by keeping updating those packages.We can also write a module to check for the update. By searching, I learned that there may be some bugs within certain version of Nextcloud,if the latest version of Nextcloud is not stable, we may stay the old one and wait for the stable updates.
+
+		We could use puppet module manage package for further maintance.
+	Security:
+		SSL Labs provides free service to test the security of your server. This is a main part we need figure out.
+
+
+
+			
+			
+			
+			
+
+
+
+
 

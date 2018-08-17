@@ -1,0 +1,26 @@
+1.All package need for set up Nextcloud server:
+apache2 
+apache2-utils
+mariadb-server
+mariadb-client
+php7.0-fpm 
+php7.0-mysql 
+php7.0-common 
+php7.0-gd 
+php7.0-json 
+php7.0-cli 
+php7.0-curl 
+libapache2-mod-php7.0
+
+2.Offical NextCloud 11 server package url:
+wget https://download.nextcloud.com/server/releases/nextcloud-11.0.1.zip
+
+3.Things need to setup:
+-Create a Database and User in MariaDB
+-Enable Binary Logging in MariaDB 
+-Create an Apache Virtual Host File for Nextcloud
+-Finish the Installation in your Web Browser
+-Secure it with HTTPS
+
+The domain for the server is:
+Chenandtai.tk
